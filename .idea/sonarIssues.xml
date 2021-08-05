@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ae5b4b9699ffff325f2885f8bf11f84/jetified-ijkplayer-java-1.0.0-10-SNAPSHOT/jars/classes.jar!/tv/danmaku/ijk/media/player/IMediaPlayer.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ae5b4b9699ffff325f2885f8bf11f84/jetified-ijkplayer-java-1.0.0-10-SNAPSHOT/jars/classes.jar!/tv/danmaku/ijk/media/player/IjkMediaPlayer.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/845b8c7e3fbd4abf088b491acd26763e/jetified-videoplayer-java-2.0.0-77-SNAPSHOT/jars/classes.jar!/com/noxgroup/common/videoplayer/bridge/ValueBridge.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/NoxVE/app/src/main/java/com/blaze/music/video/maker/ui/FileUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/NoxVE/app/src/main/java/com/blaze/music/video/maker/ui/PreViewVideoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/NoxVE/extra/config/res_dev/10120_pic_9_1/template.lua">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/NoxVE/library/src/main/assets/cube2d.fsh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/NoxVE/library/src/main/java/com/noxgroup/app/common/ve/util/MatrixHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Repositories/GPUImageTest/library/src/main/java/jp/co/cyberagent/android/gpuimage/filter/GPUImageFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Repositories/NoxCamera/app/src/main/java/com/bloom/selfie/camera/beauty/common/network/NetParams.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Repositories/videoplayer2/app/src/main/java/com/noxgroup/videoplayerTest/LoadingDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Repositories/videoplayer2/app/src/main/java/com/noxgroup/videoplayerTest/normal/NormalPayerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Repositories/videoplayer2/playerijklib/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/LearnOpenGLES-master/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/LearnOpenGLES-master/app/src/main/assets/shaders/color_vertex.glsl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/LearnOpenGLES-master/app/src/main/java/com/min/learnopengles/image/ImageActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/LearnOpenGLES-master/app/src/main/java/com/min/learnopengles/image/ImageRender.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/assets/shaders/hormirror.fsh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/assets/shaders/hormirror2.fsh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/assets/shaders/simple.fsh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/assets/shaders/simpleMatrix.vsh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/assets/simple.fsh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/assets/simpleMatrix.vsh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/MyApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/base/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/base/BaseSurfaceViewActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/glsurfaceview/GLSurfaceViewActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/image/ImageActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/image/ImageRender.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/mirror/BaseMirrorRender.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/mirror/MirrorActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/mirror/MirrorRender.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/mirror/MirrorRender1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/mirror/MirrorRender2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/utils/GLESUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/utils/Utils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_glsurfaceview.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
