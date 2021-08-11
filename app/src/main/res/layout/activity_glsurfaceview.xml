@@ -41,6 +41,45 @@
             android:textAllCaps="false" />
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/ll_trans"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_scale">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:onClick="transZ"
+            android:text="TransZ"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:onClick="scale"
+            android:text="Scale"
+            android:textAllCaps="false"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:onClick="transX"
+            android:text="TransX"
+            android:textAllCaps="false"
+            android:visibility="invisible" />
+    </LinearLayout>
+
     <android.opengl.GLSurfaceView
         android:id="@+id/glsurface_view"
         android:layout_width="match_parent"

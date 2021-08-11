@@ -3,7 +3,6 @@ package com.noxgroup.app.learnopengl.image;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
@@ -30,7 +29,7 @@ public class ImageActivity extends BaseSurfaceViewActivity {
 
     @Override
     public void rotateDirection(View view) {
-        renderer.changeRotateDirce();
+        renderer.changeDirect();
     }
 
     @Override
@@ -54,6 +53,12 @@ public class ImageActivity extends BaseSurfaceViewActivity {
     @Override
     public void rotateZ(View view) {
         renderer.rotateZ();
+        glSurfaceView.requestRender();
+    }
+
+    @Override
+    public void transZ(View view) {
+        renderer.transZ();
         glSurfaceView.requestRender();
     }
 

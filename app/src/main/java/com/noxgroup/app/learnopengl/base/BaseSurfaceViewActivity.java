@@ -51,4 +51,7 @@ public class BaseSurfaceViewActivity extends BaseActivity {
 
     public void transY(View view) {
     }
+
+    public void transZ(View view) {
+    }
 }

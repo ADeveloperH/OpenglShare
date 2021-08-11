@@ -7,8 +7,6 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.noxgroup.app.learnopengl.base.BaseActivity;
-import com.noxgroup.app.learnopengl.R;
 import com.noxgroup.app.learnopengl.base.BaseSurfaceViewActivity;
 
 import javax.microedition.khronos.egl.EGLConfig;
@@ -20,6 +18,7 @@ import javax.microedition.khronos.opengles.GL10;
  * @Description
  */
 public class GLSurfaceViewActivity extends BaseSurfaceViewActivity {
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,17 +35,27 @@ public class GLSurfaceViewActivity extends BaseSurfaceViewActivity {
          * RENDERMODE_CONTINUOUSLY：自动刷新，自动回调 onDrawFrame 方法
          */
         glSurfaceView.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
+//        glSurfaceView.postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                Log.e("hj", "GLSurfaceViewActivity.run: cuThread:" + Thread.currentThread().getName());
+//                GLES20.glClearColor(1.0f, 0.7f, 0.9f, 1.0f);
+//            }
+//        }, 2000);
     }
 
-    static class MyRender implements GLSurfaceView.Renderer {
+
+    class MyRender implements GLSurfaceView.Renderer {
         /**
          * 调用一次以设置视图的 OpenGL ES 环境。
          */
         @Override
         public void onSurfaceCreated(GL10 gl, EGLConfig config) {
             // Set the background frame color
-            GLES20.glClearColor(1.0f, 0.7f, 0.9f, 1.0f);
+            GLES20.glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
             Log.d("hj", "MyRender.onSurfaceCreated: " + Thread.currentThread().getName());
+
+
         }
 
         /**
@@ -58,10 +67,8 @@ public class GLSurfaceViewActivity extends BaseSurfaceViewActivity {
          */
         @Override
         public void onSurfaceChanged(GL10 gl, int width, int height) {
-            Log.d("hj", "MyRender.onSurfaceChanged: width:" + width + " height:" + height);
-//            GLES20.glViewport(0, 0, width, height);
-            GLES20.glViewport(0, 0, width, height/2);
-            Log.d("hj", "MyRender.onSurfaceChanged: " + Thread.currentThread().getName());
+            Log.d("hj", "MyRender.onSurfaceChanged: width:" + width + " height:" + height + "  threadName:" + Thread.currentThread().getName());
+            GLES20.glViewport(0, 0, width, height);
         }
 
         /**
@@ -71,9 +78,17 @@ public class GLSurfaceViewActivity extends BaseSurfaceViewActivity {
          */
         @Override
         public void onDrawFrame(GL10 gl) {
-            Log.d("hj", "MyRender.onDrawFrame: " + Thread.currentThread().getName());
+            Log.d("hj", "MyRender.onDrawFrame:   threadName:" + Thread.currentThread().getName());
             // Redraw background color
             GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
+            GLES20.glClearColor(1.0f, 0.7f, 0.9f, 1.0f);
+//            new Thread() {
+//                @Override
+//                public void run() {
+//                    Log.e("hj", "MyRender.run: threadName：" + Thread.currentThread().getName());
+//                    GLES20.glClearColor(1.0f, 0.7f, 0.9f, 1.0f);
+//                }
+//            }.start();
         }
 
     }
