@@ -33,7 +33,14 @@ public class ImageRender implements GLSurfaceView.Renderer {
             1.0f, 1.0f, zValue,
             1.0f, -1.0f, zValue
     };
+    private static final float[] mTextureCoord = {
+            0.0f, 0.0f,
+            0.0f, 1.0f,
+            1.0f, 0.0f,
+            1.0f, 1.0f,
+    };
 
+    //原始
 //    private static final float[] mTextureCoord = {
 //            0.0f, 1.0f,
 //            0.0f, 0.0f,
@@ -41,12 +48,21 @@ public class ImageRender implements GLSurfaceView.Renderer {
 //            1.0f, 0.0f,
 //    };
 
-    private static final float[] mTextureCoord = {
-            0.0f, 0.0f,
-            0.0f, 1.0f,
-            1.0f, 0.0f,
-            1.0f, 1.0f,
-    };
+
+    //==============================GL_TRIANGLE_FAN
+//    private static final float[] mVertex = {
+//            -1.0f, 1.0f, zValue,
+//            -1.0f, -1.0f, zValue,
+//            1.0f, -1.0f, zValue,
+//            1.0f, 1.0f, zValue,
+//    };
+//
+//    private static final float[] mTextureCoord = {
+//            0.0f, 0.0f,
+//            0.0f, 1.0f,
+//            1.0f, 1.0f,
+//            1.0f, 0.0f,
+//    };
 
     //=====================三角形区域
 //    private static final float[] mVertex = {
@@ -228,7 +244,9 @@ public class ImageRender implements GLSurfaceView.Renderer {
         Matrix.multiplyMM(mMVPMatrix, 0, mProjectMatrix, 0, mMVPMatrix, 0);
 
         GLES20.glUniformMatrix4fv(mMatrixHandle, 1, false, mMVPMatrix, 0);
+        //绘制模式
         GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, mTextureCoord.length /2);
+//        GLES20.glDrawArrays(GLES20.GL_TRIANGLE_FAN, 0, mTextureCoord.length /2);
 //        GLES20.glDrawArrays(GLES20.GL_TRIANGLES, 0, mTextureCoord.length /2);
         GLES20.glDisableVertexAttribArray(mPositionHandle);
         GLES20.glDisableVertexAttribArray(mTextureCoordHandle);
