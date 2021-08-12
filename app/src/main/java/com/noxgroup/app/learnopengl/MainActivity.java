@@ -8,6 +8,7 @@ import com.noxgroup.app.learnopengl.base.BaseActivity;
 import com.noxgroup.app.learnopengl.glsurfaceview.GLSurfaceViewActivity;
 import com.noxgroup.app.learnopengl.image.ImageActivity;
 import com.noxgroup.app.learnopengl.interpolator.InterpolatorActivity;
+import com.noxgroup.app.learnopengl.matrixtransform.SampleMatrixTransformActivity;
 import com.noxgroup.app.learnopengl.mirror.MirrorActivity;
 
 public class MainActivity extends BaseActivity {
@@ -33,5 +34,9 @@ public class MainActivity extends BaseActivity {
 
     public void interpolatorAnim(View view) {
         startActivity(new Intent(this, InterpolatorActivity.class));
+    }
+
+    public void matrixtransform(View view) {
+        startActivity(new Intent(this, SampleMatrixTransformActivity.class));
     }
 }

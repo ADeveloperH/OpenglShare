@@ -29,6 +29,9 @@
         <activity
             android:name=".interpolator.InterpolatorActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".matrixtransform.SampleMatrixTransformActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
