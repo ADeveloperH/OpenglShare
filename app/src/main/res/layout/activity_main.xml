@@ -28,5 +28,12 @@
         android:layout_marginTop="5dp"
         android:onClick="showMirror"
         android:text="图片镜像" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:onClick="interpolatorAnim"
+        android:text="插值器" />
 
 </LinearLayout>

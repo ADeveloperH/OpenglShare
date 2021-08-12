@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/AlphaPlayer/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../Demo/photo2video/LearnOpenGLES-master/app/build.gradle">
           <value>
             <set />
@@ -178,6 +183,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/interceptor/InterceptorActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/interpolator/BezierInterpolaotr.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/interpolator/DecayInterlator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/interpolator/Interceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/interpolator/InterceptorActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/interpolator/Interpolator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/interpolator/InterpolatorActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/interpolator/LinearInterpolator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/noxgroup/app/learnopengl/mirror/BaseMirrorRender.java">
           <value>
             <set />
@@ -214,6 +259,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_glsurfaceview.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_interceptor_layout.xml">
           <value>
             <set />
           </value>

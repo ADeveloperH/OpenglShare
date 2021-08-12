@@ -26,6 +26,9 @@
         <activity
             android:name=".mirror.MirrorActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".interpolator.InterpolatorActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

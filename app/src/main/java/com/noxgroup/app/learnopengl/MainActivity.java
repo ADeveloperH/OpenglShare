@@ -7,6 +7,7 @@ import android.view.View;
 import com.noxgroup.app.learnopengl.base.BaseActivity;
 import com.noxgroup.app.learnopengl.glsurfaceview.GLSurfaceViewActivity;
 import com.noxgroup.app.learnopengl.image.ImageActivity;
+import com.noxgroup.app.learnopengl.interpolator.InterpolatorActivity;
 import com.noxgroup.app.learnopengl.mirror.MirrorActivity;
 
 public class MainActivity extends BaseActivity {
@@ -28,5 +29,9 @@ public class MainActivity extends BaseActivity {
 
     public void showMirror(View view) {
         startActivity(new Intent(this, MirrorActivity.class));
+    }
+
+    public void interpolatorAnim(View view) {
+        startActivity(new Intent(this, InterpolatorActivity.class));
     }
 }

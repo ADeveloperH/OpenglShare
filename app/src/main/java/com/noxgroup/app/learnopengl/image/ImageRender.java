@@ -40,7 +40,6 @@ public class ImageRender implements GLSurfaceView.Renderer {
             1.0f, 1.0f,
     };
 
-    //原始
 //    private static final float[] mTextureCoord = {
 //            0.0f, 1.0f,
 //            0.0f, 0.0f,
@@ -197,6 +196,17 @@ public class ImageRender implements GLSurfaceView.Renderer {
             Matrix.rotateM(mModelMatrix, 0, rotateZValue, 0, 0, 1);
         }
 
+        /**
+         * Matrix.setLookAtM (float[] rm,      //接收相机变换矩阵
+         *                 int rmOffset,       //变换矩阵的起始位置（偏移量）
+         *                 float eyeX,float eyeY, float eyeZ,   //相机在世界坐标中的位置
+         *                 float centerX,float centerY,float centerZ,  //模型中心在世界坐标中的位置
+         *                 float upX,float upY,float upZ)  //up向量在xyz上的分量。该向量与视线是垂直的
+         */
+        Matrix.setLookAtM(mViewMatrix, 0, 0, 0, 3.0f, 0f, 0f, 0f, 0f, 1.0f, 0.0f);
+//        Matrix.setLookAtM(mViewMatrix, 0, 0, 0, 3.0f, 0f, 0f, 0f, 0f, -1.0f, 0.0f);
+
+        //2~-6
         //不管是正交投影还是透视投影，最终都是将视景体内的物体投影在近平面上
         if (isFrust) {
             /**
@@ -225,14 +235,6 @@ public class ImageRender implements GLSurfaceView.Renderer {
         }
 
         /**
-         * Matrix.setLookAtM (float[] rm,      //接收相机变换矩阵
-         *                 int rmOffset,       //变换矩阵的起始位置（偏移量）
-         *                 float eyeX,float eyeY, float eyeZ,   //相机位置
-         *                 float centerX,float centerY,float centerZ,  //观察点位置
-         *                 float upX,float upY,float upZ)  //up向量在xyz上的分量
-         */
-        Matrix.setLookAtM(mViewMatrix, 0, 0, 0, 3.0f, 0f, 0f, 0f, 0f, 1.0f, 0.0f);
-        /**
          * Matrix.multiplyMM (float[] result, //接收相乘结果
          *                 int resultOffset,  //接收矩阵的起始位置（偏移量）
          *                 float[] lhs,       //左矩阵
@@ -251,7 +253,6 @@ public class ImageRender implements GLSurfaceView.Renderer {
         GLES20.glDisableVertexAttribArray(mPositionHandle);
         GLES20.glDisableVertexAttribArray(mTextureCoordHandle);
         GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, 0);
-
         GLES20.glBindBuffer(GLES20.GL_ARRAY_BUFFER, 0);
     }
 
