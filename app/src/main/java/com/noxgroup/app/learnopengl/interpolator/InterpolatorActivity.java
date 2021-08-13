@@ -25,7 +25,7 @@ public class InterpolatorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("OPenGLES Demo");
+        setTitle("OpenGLES Demo");
         setContentView(R.layout.activity_interpolator_layout);
 
         initView();

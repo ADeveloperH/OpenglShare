@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ae5b4b9699ffff325f2885f8bf11f84/jetified-ijkplayer-java-1.0.0-10-SNAPSHOT/jars/classes.jar!/tv/danmaku/ijk/media/player/IMediaPlayer.class">
           <value>
             <set />
@@ -84,6 +89,36 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../Demo/photo2video/AlphaPlayer/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/AndroidVideoCache/library/src/main/java/com/danikula/videocache/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/AndroidVideoCache/library/src/main/java/com/danikula/videocache/GetRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/AndroidVideoCache/library/src/main/java/com/danikula/videocache/HttpProxyCacheServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/AndroidVideoCache/library/src/main/java/com/danikula/videocache/HttpProxyCacheServerClients.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/AndroidVideoCache/sample/src/main/java/com/danikula/videocache/sample/SingleVideoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Demo/photo2video/AndroidVideoCache/sample/src/main/java/com/danikula/videocache/sample/VideoFragment.java">
           <value>
             <set />
           </value>
@@ -279,6 +314,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_interceptor_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_interpolator_layout.xml">
           <value>
             <set />
           </value>

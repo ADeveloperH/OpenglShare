@@ -22,7 +22,7 @@ public class MirrorActivity extends BaseSurfaceViewActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         glSurfaceView.setEGLContextClientVersion(2);
-        renderer = new MirrorRender2(Utils.getImageFromAssetsFile("images/image2.png"));
+        renderer = new MirrorRender1(Utils.getImageFromAssetsFile("images/image2.png"));
         glSurfaceView.setRenderer(renderer);
         glSurfaceView.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
     }
